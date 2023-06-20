@@ -6,4 +6,9 @@
             <module name="Magento_Helloworld" />
         </route>
     </router>
+    <router id="customer">
+        <route frontName="helloworld" id="helloworld">
+            <module name="Magento_Helloworld" before="Magento_Customer" />
+        </route>
+    </router>
 </config>

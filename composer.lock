@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0881dfa73476054e9d7342418f0bf77",
+    "content-hash": "9b9ca3b7c0c2766930bbf09509be5050",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3929,6 +3929,104 @@
                 }
             ],
             "time": "2022-04-17T13:12:02+00:00"
+        },
+        {
+            "name": "magefan/module-admin-user-guide",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magefan/module-admin-user-guide.git",
+                "reference": "2dc427aa04dde91b6d8978cfb7b26b2506d7e94a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magefan/module-admin-user-guide/zipball/2dc427aa04dde91b6d8978cfb7b26b2506d7e94a",
+                "reference": "2dc427aa04dde91b6d8978cfb7b26b2506d7e94a",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magefan\\AdminUserGuide\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Admin panel user guides.",
+            "support": {
+                "issues": "https://github.com/magefan/module-admin-user-guide/issues",
+                "source": "https://github.com/magefan/module-admin-user-guide/tree/2.0.3"
+            },
+            "time": "2023-05-21T08:49:00+00:00"
+        },
+        {
+            "name": "magefan/module-community",
+            "version": "2.1.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magefan/module-community.git",
+                "reference": "672c4e6f26fa004b94d777d23eec65811140a40c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magefan/module-community/zipball/672c4e6f26fa004b94d777d23eec65811140a40c",
+                "reference": "672c4e6f26fa004b94d777d23eec65811140a40c",
+                "shasum": ""
+            },
+            "require": {
+                "magefan/module-admin-user-guide": ">=2.0.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magefan\\Community\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/magefan/module-community/issues",
+                "source": "https://github.com/magefan/module-community/tree/2.1.16"
+            },
+            "time": "2023-05-21T08:49:45+00:00"
+        },
+        {
+            "name": "magefan/module-html-sitemap",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magefan/module-html-sitemap.git",
+                "reference": "e9a25040ed21ae5f34fde9686fbef6dc74ddec45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magefan/module-html-sitemap/zipball/e9a25040ed21ae5f34fde9686fbef6dc74ddec45",
+                "reference": "e9a25040ed21ae5f34fde9686fbef6dc74ddec45",
+                "shasum": ""
+            },
+            "require": {
+                "magefan/module-community": ">=2.1.13"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magefan\\HtmlSitemap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "HTML Sitemap extension for Magento 2",
+            "support": {
+                "issues": "https://github.com/magefan/module-html-sitemap/issues",
+                "source": "https://github.com/magefan/module-html-sitemap/tree/2.1.1"
+            },
+            "time": "2023-05-01T14:32:30+00:00"
         },
         {
             "name": "magento/composer",

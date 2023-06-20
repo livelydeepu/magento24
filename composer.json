@@ -69,6 +69,7 @@
         "laminas/laminas-view": "~2.12.0",
         "league/flysystem": "^2.0",
         "league/flysystem-aws-s3-v3": "^2.0",
+        "magefan/module-html-sitemap": "^2.1",
         "magento/composer": "1.6.0",
         "magento/magento-composer-installer": ">=0.1.11",
         "magento/module-bundle-sample-data": "100.4.*",

@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.272.2",
+            "version": "3.273.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0c4cba74c79f9b44393c27721fa1fa9138c95387"
+                "reference": "1d3e7ae37f31dfe1d4e9d9e361fd8e6702074fbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0c4cba74c79f9b44393c27721fa1fa9138c95387",
-                "reference": "0c4cba74c79f9b44393c27721fa1fa9138c95387",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1d3e7ae37f31dfe1d4e9d9e361fd8e6702074fbe",
+                "reference": "1d3e7ae37f31dfe1d4e9d9e361fd8e6702074fbe",
                 "shasum": ""
             },
             "require": {
@@ -151,9 +151,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.272.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.273.7"
             },
-            "time": "2023-06-12T18:21:59+00:00"
+            "time": "2023-06-23T18:19:24+00:00"
         },
         {
             "name": "brick/math",
@@ -4886,16 +4886,16 @@
         },
         {
             "name": "mageplaza/module-smtp",
-            "version": "4.7.6",
+            "version": "4.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mageplaza/magento-2-smtp.git",
-                "reference": "dcb31aa8f0150e6fddcf9c7af3f9b8187ca7ab94"
+                "reference": "1ea31a528b6a8429f2176615bfc3e7d11a764eb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/dcb31aa8f0150e6fddcf9c7af3f9b8187ca7ab94",
-                "reference": "dcb31aa8f0150e6fddcf9c7af3f9b8187ca7ab94",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/1ea31a528b6a8429f2176615bfc3e7d11a764eb0",
+                "reference": "1ea31a528b6a8429f2176615bfc3e7d11a764eb0",
                 "shasum": ""
             },
             "require": {
@@ -4945,9 +4945,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mageplaza/magento-2-smtp/issues",
-                "source": "https://github.com/mageplaza/magento-2-smtp/tree/v4.7.6"
+                "source": "https://github.com/mageplaza/magento-2-smtp/tree/v4.7.7"
             },
-            "time": "2023-05-25T09:08:52+00:00"
+            "time": "2023-06-22T04:40:30+00:00"
         },
         {
             "name": "monolog/monolog",
